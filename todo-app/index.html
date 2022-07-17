@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App | Alee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1 mx-auto display-6">Alee Todo App</span>
+            </div>
+        </nav>
+    </header>
+    <main class="">
+        <section>
+            <div class="container">
+                <form  action="#" id="todo-form">
+                    <div class="form-group">
+                        <label for="todo-add" class="form-label">Add Todo</label>
+                        <input type="text" class="form-control" placeholder="Add Todo" id="todo-add" />
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary mt-3 btn-sm">Add Todo</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="display-6 text-center mt-3">Todo List</h2>
+                <ul id="todo-list"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
